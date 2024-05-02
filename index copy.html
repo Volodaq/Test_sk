@@ -20,31 +20,20 @@
         }
     </style>
 </head>
-<script language = "javascript">
-  arrColor = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
-  function mouseOut() {
-    for (i = 0; i < 13; i++)
-      setTimeout ('document.blinkbutton.button.style.background = "#'+arrColor[15-i]+'0'+arrColor[15-i]+'FFF";', i * 50);
-  }
-  function mouseOver() {
-    for (i = 0; i < 15; i++)
-      setTimeout ('document.blinkbutton.button.style.background = "#'+arrColor[i]+'0'+arrColor[i]+'F31";', i * 50);
-  }
-  </script>
 <body class="bg_color">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">CakeCake</a>
+          <a class="navbar-brand" href="index.html">CakeCake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Главная страница</a>
+                <a class="nav-link" href="index.html">Главная страница</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index copy.html">Состав</a>
+                <a class="nav-link active" aria-current="page" href="index copy.html">Состав</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -54,29 +43,27 @@
           </div>
         </div>
       </nav>
-    <div style="color:blue">
-        <H1 align="center"> Ягодный кокос
-        </H1>
+    <div style="color:rgb(123, 155, 134)">
+        <H1 align="center"> не ягодный абрикос</H1>
     </div>
-    <img src="123.jpeg" alt="">
-    <div></div>
+    <div>
+        <p style="color:brown">Состав</p>
+        <ol style="color: beige;">
+            <li class="small">Кокос</li>
+            <li class="normal">Шоколад</li>
+            <li class="large">Масло</li>
+        </ol>
+        <p style="color: brown;">Хранение </p>
+        </style>
+        <ul style="color: antiquewhite;">
+            <li>При температуре 10 градумов - двое суток</li>
+            <li>Вророй пункт</li>
+            <li>Третий пункт</li>
         </ul>
     </div>
     <div align="center">
-        <i style="color: aqua;">Создано 12.04</i>
+        <i style="color: aqua;">Корзина</i>
+        <img src="shop.png" alt="">
     </div>
-      <script>
-          function redirectToHelp() {
-              window.location.href = 'index copy.html';
-          }
-      </script>
-  </head>
-  <body>
-  <div>
-      <form name="blinkbutton">
-          <input type="button" name="button" value="Состав" onMouseOver='mouseOver()' onMouseOut='mouseOut()' onclick="redirectToHelp()" style="background-color: #b1527a">
-  </div>
-  </body>
-  </html>
 </body>
 </html>
